@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+
+.jumbotron {
+    margin-top: 140px;
+    text-align: left;
+    font-family: serif;
+    color: red;
+}
+
+.jumbotron h2 {
+    text-align: center;
+    margin-top: 20px;
+}

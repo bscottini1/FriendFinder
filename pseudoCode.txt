@@ -1,0 +1,4 @@
+1. obtain values of scores from 10 users
+2. subtract each indice of current user score from each existing user score, using absolute values
+3. add all aboslute values from current user score and user 2 score
+4. Repeat for all 10 users
