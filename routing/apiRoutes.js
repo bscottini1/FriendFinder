@@ -3,26 +3,15 @@ app.get("/api/friends", function(req, res){
     res.sendFile(path.join(__dirname, "./public/home.html"));
 });
 
-app.post("/api/friends", )
+app.post("/api/friends", newUser,
 
 
 
 
 
 
-
-
-    // console.log(friends[0].scores);
-
-
-s
-//     //from Jacob:
-//     for (let i= 0; i < friends[0].scores.length; i++){
-    // newArray.push(Math.abs(friends[0].scores[i] - myArray[i]));
-// }
-// }
     
-const friends = [
+let friends = [
     {name: "Dave", scores: [1, 1, 4, 4, 5, 1, 2, 5, 4, 1]},
     {name: "Cindy", scores: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]},
     {name: "George", scores: [4, 1, 3, 5, 4, 2, 1, 1, 2, 1]}
